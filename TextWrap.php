@@ -24,6 +24,8 @@ class TextWrap implements TextWrapInterface
 
   public function wrap(string $text, int $length): array 
   {
+    $ff = $text;
+    $nn = $length;
     $arr = array();
     $res = array();
     $elemento = "";
